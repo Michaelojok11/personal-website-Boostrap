@@ -30,3 +30,7 @@ button a {
 .services {
     text-align: center;
 }
+.col-sm-4 img {
+    width: 25px;
+    height: 25px;
+}
