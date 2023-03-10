@@ -57,3 +57,13 @@ h3 {
     padding-left: 26px;
     font-size: 20px;
 }
+
+.media img {
+    width: 25px;
+    height: 25px;
+    margin-right: 60px;
+    
+}
+.media {
+    padding-left: 26px;
+}
