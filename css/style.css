@@ -48,5 +48,12 @@ h3 {
 }
 .socials ul li {
  list-style-type: none;
+ font-size: 20px;
  
+}
+.links{
+    text-decoration: none;
+    color: white;    
+    padding-left: 26px;
+    font-size: 20px;
 }
