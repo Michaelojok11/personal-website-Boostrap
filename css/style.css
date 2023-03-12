@@ -21,6 +21,10 @@ button a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
 }
+.row p:hover{
+    background-color: rgb(28, 28, 29);
+    border-radius: 2px;
+}
 
 
 /* heading 3 */
