@@ -99,3 +99,7 @@ h3 {
 .websites img:hover{
     border: 2px solid;
 }
+.websites p a {
+    text-decoration: none;
+    text-align: center;
+}
