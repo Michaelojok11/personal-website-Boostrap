@@ -1426,13 +1426,35 @@
 <a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Hooray!"> Bottom </a>
 <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="Hooray!"> Right </a>
 <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Hooray!"> Left </a>
-
-
-
-
 <!--  -->
 
+<!-- pop overs -->
+<!-- popovers appear when the user clicks on the element
+ -->
+ <button type="button" class="btn btn-primary" data-bs-toggle="popover" title="Popover Header" data-bs-content="Some content inside the popover">
+  Toggle popover
+ </button>
 
+
+
+
+
+ <!-- End of pop-overs -->
+
+
+
+
+
+ <!-- pop overs javascript, start -->
+ <script>
+  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl)
+  })
+  </script>
+  <!-- End of popovers javascript -->
+
+  <!-- console -->
 <script>
   console.log("Hello world");
 </script>
